@@ -1,0 +1,71 @@
+body{
+padding: 0;
+margin: 0;
+}
+
+.addnewcontact{
+    background-color: rgb(107, 24, 202);
+    color: rgb(233, 233, 241);
+    width: 100%;
+    height: 100px;
+    display: grid;
+    grid-template-columns: auto auto;
+    
+}
+
+.text{
+    position: relative;
+    top: 35px;
+    left: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2.5rem;
+  
+}
+
+.contactsections{
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 0;
+    margin:0; 
+    width: 50%;
+    height: 100%; 
+}
+
+.insertpicture{
+    background-color: rgb(245, 241, 241);
+    color: rgb(109, 109, 126);
+    /* width: 100%; */
+
+   
+    padding: 0;
+    margin: 0;
+}
+
+.contactinfo{
+    display: block;
+    padding: 30px;
+    
+
+}
+.button{
+    border-radius: 10px;
+    padding: 5px;
+    margin:5px;
+    width: 100px;
+}
+
+.storecontact{
+    padding: 0;
+    margin: 0;
+    background-color: rgb(230, 188, 138);
+    min-height: 300px;
+    width: 100%;
+}
+.search{
+    position: relative;
+    top:45px;
+    height: 30px;
+    width: 200px;
+    border-radius: 5px;
+
+}

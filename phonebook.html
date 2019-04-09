@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/phonebook.css">
+    <link rel="stylesheet" href="./css/font-awesome/font-awesome.min.css">
+</head>
+<body>
+  <div class="addnewcontact">
+      <div><h1 class="text">Add new contact</h1></div>
+      <div ><input type="text" placeholder="Search" id="search" class="search"> </div>
+    </div>
+  <div class="contactsections">
+      <div class="insertpicture"><p>Insert picture</p></div>
+      <div class="contactinfo">
+          <h4>Name:</h4>
+          <input type="text" id="name" placeholder="name"> 
+          <h4>Phone number:</h4>
+          <input type="tel" id="phoneNumber" placeholder="Phone"> 
+          <h4>Email Address:</h4>
+          <input type="email" id="email" placeholder="Email"> 
+          <button class="button" id="save">Save</button>
+      </div>
+
+  </div>
+    
+<div class="storecontact">
+    <ul id="contactList">
+    
+
+    
+    </ul>
+</div>
+<script src="./js/businesslogic.js"></script>
+    <script src="./js/presentationlayer.js"></script>
+
+    <!-- <script src="./js/api.js" ></script> -->
+    
+</body>
+</html>
